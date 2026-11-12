@@ -94,7 +94,7 @@ nav a:hover {
             rgba(25, 13, 7, 0.45),
             rgba(25, 13, 7, 0.65)
         ),
-        url("imagens/espaco-burguer.png");
+        url("espacoburguer.png");
 
     background-size: cover;
     background-position: center;
