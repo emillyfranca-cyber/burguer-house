@@ -1,0 +1,162 @@
+
+/* CONFIGURAÇÕES GERAIS */
+
+body {
+    margin: 0;
+    background-color: #f5ead8;
+    font-family: Arial, sans-serif;
+    color: #422b20;
+}
+
+/* CABEÇALHO */
+
+header {
+    background-color: #422b20;
+    color: #f5ead8;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 30px;
+}
+
+nav {
+    margin-top: 20px;
+}
+
+nav a {
+    color: #f5ead8;
+    text-decoration: none;
+    margin: 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #f29a38;
+}
+
+/* BANNER */
+
+.banner {
+    background-image: url("https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=1400");
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    padding: 30px;
+}
+
+.texto-banner {
+    background-color: rgba(66, 43, 32, 0.85);
+    color: white;
+    padding: 30px;
+    border-radius: 10px;
+    width: 400px;
+}
+
+.texto-banner h2 {
+    color: #f29a38;
+    font-size: 30px;
+}
+
+.texto-banner p {
+    font-size: 17px;
+}
+
+.texto-banner a {
+    display: inline-block;
+    background-color: #e98932;
+    color: white;
+    text-decoration: none;
+    padding: 12px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+/* CARDÁPIO */
+
+.cardapio {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.cardapio h2 {
+    color: #a65328;
+    font-size: 30px;
+}
+
+.produtos {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+    margin-top: 30px;
+}
+
+.produto {
+    background-color: white;
+    width: 230px;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.produto img {
+    width: 100%;
+    height: 160px;
+    border-radius: 8px;
+}
+
+.produto h3 {
+    color: #a65328;
+}
+
+.produto h4 {
+    color: #e98932;
+    font-size: 20px;
+}
+
+/* NOSSO ESPAÇO */
+
+.espaco {
+    background-color: #e8d5b9;
+    text-align: center;
+    padding: 40px;
+}
+
+.espaco h2 {
+    color: #a65328;
+    font-size: 30px;
+}
+
+.espaco p {
+    font-size: 17px;
+    margin-bottom: 25px;
+}
+
+.espaco img {
+    width: 70%;
+    border-radius: 10px;
+}
+
+/* CONTATO */
+
+.contato {
+    text-align: center;
+    padding: 40px;
+}
+
+.contato h2 {
+    color: #a65328;
+    font-size: 28px;
+}
+
+/* RODAPÉ */
+
+footer {
+    background-color: #422b20;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
